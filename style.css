@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #102530;
+  color: #c5a483;
+  padding: 1px;
+  border-radius: 30px;
+  margin: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  font-size: 12px;
+  font-family: "Quattrocento Sans" sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c5a483;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  background-color: #c5a483;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: #102530;
+  font-weight: 900;
+}
+
+h2 {
+  color: #102530;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  color: #ece9e4;
+  font-family: "Trirong", serif;
+}
+
+p {
+  font-family: "Quattrocento Sans" sans-serif;
+  font-weight: 400;
+  color: #102530;
+}
+
+footer {
+  background-color: #102530;
+  padding: 20px 0;
+  margin-top: auto;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 30px;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #c5a483;
+}
+
+#conceito .container-conceito {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#conceito {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+#conceito h1 {
+  line-height: 80px;
+  padding-bottom: 50px;
+}
+
+#conceito .titulo-texto {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#conceito .texto-conceito {
+  display: flex;
+}
+
+#img-scrum img {
+  width: 800px;
+  height: 400px;
+  max-width: fit-content;
+}
+
+#img-scrum {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+#pilares {
+  background-color: #102530;
+  border-radius: 20px;
+}
+
+#pilares .container-pilares {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+  height: 50px;
+}
+
+#pilares h2 {
+  background-color: #b56e3a;
+  color: #102530;
+  text-align: center;
+  border-radius: 1000px;
+  margin: 0px;
+  font-size: 20px;
+  padding: 5px;
+  line-height: 25px;
+}
+
+#pilares .pilares-lista {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+#pilares h3 {
+  color: #c5a483;
+  margin: 0;
+  font-size: 15px;
+}
+
+#pilares p {
+  color: #102530;
+  background-color: #c5a483;
+  border-radius: 100px;
+  padding: 5px;
+  margin: 0;
+  height: 30px;
+  line-height: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+#estruturas {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}
+
+#estruturas h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#estruturas h3 {
+  color: #314f5a;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#estruturas p {
+  color: #ece9e4;
+  padding-bottom: 200px;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+#estruturas .lista-estrutura {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#estruturas .estrutura {
+  display: flex;
+  background-color: #b56e3a;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  width: auto;
+  height: 300px;
+}
+
+#estruturas .textos-estruturas {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#estruturas .img {
+  max-width: 100%;
+  border-radius: 100px;
+}
+
+#estruturas img {
+  max-width: 25%;
+  height: auto;
+  width: 100%;
+  padding-right: 100px;
+}
+
+#artefatos {
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#artefatos .lista-artefatos {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding: 50px;
+  padding-top: 10px;
+}
+
+#artefatos .container-artefatos {
+  background-color: #102530;
+  border-radius: 100px;
+  line-height: 20px;
+  text-align: center;
+  height: 100px;
+  width: 900px;
+}
+
+#artefatos h2 {
+  font-size: 30px;
+}
+
+#artefatos h3 {
+  color: #b56e3a;
+  line-height: 10px;
+  padding-top: 20px;
+}
+
+#artefatos p {
+  color: #ece9e4;
+  padding-top: 20px;
+}
+
+#eventos {
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#eventos h2 {
+  font-size: 30px;
+}
+
+#eventos .observacao {
+  font-size: 20px;
+}
+
+#eventos h3 {
+  color: #314f5a;
+  font-weight: 900;
+}
+
+#eventos .lista-eventos {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 50px;
+}
+
+#eventos .img {
+  max-width: 100%;
+  border-radius: 100px;
+}
+
+#eventos img {
+  width: 1000px;
+  height: auto;
+  max-width: fit-content;
+}
+
+#eventos .eventos-explicacao {
+  border: 2px solid #ece9e4;
+  border-radius: 15px;
+}
+
+#comparacao {
+  padding-top: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  line-height: 20px;
+}
+
+#comparacao .container-comparacao {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+#comparacao .pros,
+#comparacao .contra {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#comparacao .lista-pros,
+#comparacao .lista-contra {
+  align-items: first baseline;
+  padding-left: 15px;
+}
+
+#comparacao h2 {
+  font-size: 30px;
+}
+
+#comparacao .pros ul,
+#comparacao .contra ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#comparacao .pros li,
+#comparacao .contra li {
+  margin: 10px 0;
+  line-height: 1.5;
+  list-style-type: none;
+  flex: 1;
+}
+
+#comparacao .pros h3,
+#comparacao .pros p,
+#comparacao .contra h3,
+#comparacao .contra p {
+  color: #ece9e4;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#comparacao .pros h3,
+#comparacao .contra h3 {
+  background-color: #b56e3a;
+  border-radius: 15px;
+}
+
+#comparacao .pros p,
+#comparacao .contra p {
+  color: #314f5a;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.footer p {
+  font-size: 15px;
+  color: #c5a483;
+  margin: 0;
+}
+
+#footer .footer {
+  background-color: #102530;
+}
